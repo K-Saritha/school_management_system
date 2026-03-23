@@ -131,6 +131,9 @@ function validateCoordinates(latitudeNum, longitudeNum) {
     return null;
 }
 
+app.get("/", (req, res) => {
+    res.send("Welcome to the School Management System API");
+});
 
 
 
