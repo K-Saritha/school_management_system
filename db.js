@@ -103,7 +103,9 @@ connection.connect((err) => {
         }
 
         console.log("Schools table ready");
+        
     });
+    
 });
 
 module.exports = connection;
