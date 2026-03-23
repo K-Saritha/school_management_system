@@ -1,0 +1,65 @@
+const mysql = require("mysql2");
+
+const connection = mysql.createConnection({
+    host: "localhost",
+    user: "root",
+    password: ""
+});
+
+connection.connect((err) => {
+    if (err) {
+        console.log("Connection failed:", err);
+        return;
+    }
+
+    console.log("Connected to MySQL");
+
+    connection.query(
+        "CREATE DATABASE IF NOT EXISTS school_management_system",
+        (err, result) => {
+            if (err) {
+                console.log(err);
+                return;
+            }
+
+            console.log(result);
+            console.log("Database ready");
+
+           
+            connection.query(
+                "USE school_management_system",
+                (err) => {
+                    if (err) {
+                        console.log(err);
+                        return;
+                    }
+
+                    console.log("Using database");
+
+                    const createTableQuery = `
+                        CREATE TABLE IF NOT EXISTS schools (
+                            id INT AUTO_INCREMENT PRIMARY KEY,
+                            name VARCHAR(100) NOT NULL,
+                            address VARCHAR(255) NOT NULL,
+                            latitude FLOAT NOT NULL,
+                            longitude FLOAT NOT NULL
+                        )
+                    `;
+
+                    connection.query(createTableQuery, (err, result) => {
+                        if (err) {
+                            console.log(err);
+                            return;
+                        }
+
+                        console.log(result);
+                        console.log("Schools table created");
+
+                        connection.end();
+                    });
+                }
+            );
+
+        }
+    );
+});
