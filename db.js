@@ -58,7 +58,7 @@ connection.connect((err) => {
                         console.log(result);
                         console.log("Schools table created");
 
-                        connection.end();
+                       
                     });
                 }
             );
