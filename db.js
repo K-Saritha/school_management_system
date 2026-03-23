@@ -8,7 +8,13 @@ const connection = mysql.createConnection({
     database: process.env.MYSQLDATABASE,
     port: process.env.MYSQLPORT
 });
+function startServer() {
+    const PORT = process.env.PORT || 3000;
 
+    app.listen(PORT, () => {
+        console.log(`Server running on port ${PORT}`);
+    });
+}
 connection.connect((err) => {
     if (err) {
         console.log("Connection failed:", err);
@@ -57,7 +63,7 @@ connection.connect((err) => {
 
                         console.log(result);
                         console.log("Schools table created");
-
+                        startServer();
                        
                     });
                 }
