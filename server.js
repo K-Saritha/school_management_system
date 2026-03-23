@@ -300,6 +300,6 @@ app.get("/listSchools", (req, res) => {
 
 
 
-    app.listen(process.env.MYSQLPORT ||3000, () => {
-        console.log(`Server running on port ${process.env.MYSQLPORT}`);
+    app.listen(process.env.PORT ||3000, () => {
+        console.log(`Server running on port ${process.env.PORT}`);
     });
