@@ -1,0 +1,191 @@
+latitude=16.6868&longitude=82.2707
+
+{
+    "message": "Schools fetched successfully",
+    "count": 6,
+    "schools": [
+        {
+            "id": 14,
+            "name": "Narayana E techno school",
+            "address": "18A, Dwaraka Nagar, Visakhapatnam, Andhra Pradesh - 530016",
+            "latitude": 17.6868,
+            "longitude": 83.2185,
+            "distance": 150.00429723923264
+        },
+        {
+            "id": 13,
+            "name": "Sri Chaitanya School",
+            "address": "245/A, RTC Bustand Road, Kadapa, Andhra Pradesh - 516001",
+            "latitude": 14.4673,
+            "longitude": 78.8242,
+            "distance": 444.02884065718933
+        },
+        {
+            "id": 16,
+            "name": "Green Valley School",
+            "address": "101, MG Road, Chennai, Tamil Nadu - 600001",
+            "latitude": 13.0827,
+            "longitude": 80.2707,
+            "distance": 454.7326738078318
+        },
+        {
+            "id": 17,
+            "name": "Velammal School",
+            "address": "302, Anna Salai, Chennai, Tamil Nadu - 600002",
+            "latitude": 13.0674,
+            "longitude": 80.2376,
+            "distance": 457.92179539276304
+        },
+        {
+            "id": 15,
+            "name": "Sunrise Public School",
+            "address": "22B, Brigade Road, Bengaluru, Karnataka - 560001",
+            "latitude": 12.9716,
+            "longitude": 77.5946,
+            "distance": 650.5323904260674
+        },
+        {
+            "id": 12,
+            "name": "St Xavier High School",
+            "address": "14/B, Marine Drive, Mumbai, Maharashtra - 400001",
+            "latitude": 19.076,
+            "longitude": 72.8777,
+            "distance": 1028.6977262637913
+        }
+    ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+latitude=12.6754&longitude=74.2707
+
+{
+    "message": "Schools fetched successfully",
+    "count": 6,
+    "schools": [
+        {
+            "id": 15,
+            "name": "Sunrise Public School",
+            "address": "22B, Brigade Road, Bengaluru, Karnataka - 560001",
+            "latitude": 12.9716,
+            "longitude": 77.5946,
+            "distance": 361.88100294132465
+        },
+        {
+            "id": 13,
+            "name": "Sri Chaitanya School",
+            "address": "245/A, RTC Bustand Road, Kadapa, Andhra Pradesh - 516001",
+            "latitude": 14.4673,
+            "longitude": 78.8242,
+            "distance": 530.9618738064355
+        },
+        {
+            "id": 17,
+            "name": "Velammal School",
+            "address": "302, Anna Salai, Chennai, Tamil Nadu - 600002",
+            "latitude": 13.0674,
+            "longitude": 80.2376,
+            "distance": 648.2685213293579
+        },
+        {
+            "id": 16,
+            "name": "Green Valley School",
+            "address": "101, MG Road, Chennai, Tamil Nadu - 600001",
+            "latitude": 13.0827,
+            "longitude": 80.2707,
+            "distance": 651.9439023221079
+        },
+        {
+            "id": 12,
+            "name": "St Xavier High School",
+            "address": "14/B, Marine Drive, Mumbai, Maharashtra - 400001",
+            "latitude": 19.076,
+            "longitude": 72.8777,
+            "distance": 727.1212855815071
+        },
+        {
+            "id": 14,
+            "name": "Narayana E techno school",
+            "address": "18A, Dwaraka Nagar, Visakhapatnam, Andhra Pradesh - 530016",
+            "latitude": 17.6868,
+            "longitude": 83.2185,
+            "distance": 1109.825018125995
+        }
+    ]
+}
+
+
+
+
+
+
+
+
+
+
+latitude=13.1004&longitude=80.3707
+
+
+{
+    "message": "Schools fetched successfully",
+    "count": 6,
+    "schools": [
+        {
+            "id": 16,
+            "name": "Green Valley School",
+            "address": "101, MG Road, Chennai, Tamil Nadu - 600001",
+            "latitude": 13.0827,
+            "longitude": 80.2707,
+            "distance": 11.008026008433715
+        },
+        {
+            "id": 17,
+            "name": "Velammal School",
+            "address": "302, Anna Salai, Chennai, Tamil Nadu - 600002",
+            "latitude": 13.0674,
+            "longitude": 80.2376,
+            "distance": 14.87527874695008
+        },
+        {
+            "id": 13,
+            "name": "Sri Chaitanya School",
+            "address": "245/A, RTC Bustand Road, Kadapa, Andhra Pradesh - 516001",
+            "latitude": 14.4673,
+            "longitude": 78.8242,
+            "distance": 225.81512048838047
+        },
+        {
+            "id": 15,
+            "name": "Sunrise Public School",
+            "address": "22B, Brigade Road, Bengaluru, Karnataka - 560001",
+            "latitude": 12.9716,
+            "longitude": 77.5946,
+            "distance": 301.07249533722774
+        },
+        {
+            "id": 14,
+            "name": "Narayana E techno school",
+            "address": "18A, Dwaraka Nagar, Visakhapatnam, Andhra Pradesh - 530016",
+            "latitude": 17.6868,
+            "longitude": 83.2185,
+            "distance": 594.3316068852016
+        },
+        {
+            "id": 12,
+            "name": "St Xavier High School",
+            "address": "14/B, Marine Drive, Mumbai, Maharashtra - 400001",
+            "latitude": 19.076,
+            "longitude": 72.8777,
+            "distance": 1039.9955068206016
+        }
+    ]
+}

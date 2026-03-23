@@ -1,4 +1,4 @@
-
+require("dotenv").config();
 const express = require("express");
 const mysql = require("mysql2");
 const multer = require("multer");
@@ -11,10 +11,11 @@ app.use(express.urlencoded({ extended: true }));
 const upload = multer();
 
 const connection = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "",
-    database: "school_management_system"
+   host: process.env.MYSQLHOST,
+    user: process.env.MYSQLUSER,
+    password: process.env.MYSQLPASSWORD,
+    database: process.env.MYSQLDATABASE,
+    port: process.env.MYSQLPORT
 });
 
 connection.connect((err) => {
@@ -295,8 +296,7 @@ app.get("/listSchools", (req, res) => {
 
 
 
-const PORT = 3000;
 
-app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`);
-});
+    app.listen(process.env.MYSQLPORT, () => {
+        console.log(`Server running on port ${process.env.MYSQLPORT}`);
+    });
