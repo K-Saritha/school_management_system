@@ -132,7 +132,7 @@ function validateCoordinates(latitudeNum, longitudeNum) {
 }
 
 app.get("/", (req, res) => {
-    res.send("Welcome to the School Management System API");
+    res.status(200).send("Welcome to the School Management System API");
 });
 
 
